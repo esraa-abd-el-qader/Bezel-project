@@ -1,0 +1,39 @@
+.section-subtitle{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5rem;
+}
+.section-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.875rem;
+
+}
+.header-style{
+    width: 70px;
+    height: 5px;
+    background-color: #f38181;
+}
+.img-container{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+.img-container:hover .img-caption{
+opacity: 1;
+visibility: visible;
+}
+.img-caption{
+    background: linear-gradient(to bottom, rgba(228,129,125,0.7) 0%, rgba(255,175,75,0.7) 100%);
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    
+}
+.img-caption p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
